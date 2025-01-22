@@ -1,3 +1,7 @@
+@extends('layouts.app')
+
+@section('content')
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +13,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 </head>
 <body style="background: lightgray">
+
 
     <div class="container mt-5">
         <div class="row">
@@ -72,6 +77,7 @@
             
         @endif
     </script>
+    @endsection
 
 </body>
 </html>
